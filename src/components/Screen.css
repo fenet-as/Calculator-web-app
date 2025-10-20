@@ -1,0 +1,10 @@
+.screen{
+  width: 380px;
+  height: 20%;
+  background-color: rgb(39, 130, 210);
+  margin: 10px auto;
+  margin-left: 10px;
+  font-size: 30px;
+  text-align: right;
+  padding: 5px;
+}

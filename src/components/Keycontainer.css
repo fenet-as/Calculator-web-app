@@ -1,0 +1,28 @@
+.keyContainer{
+background-color: transparent;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+height: 73%;
+margin: auto 10px;
+gap: 10px;
+}
+
+.keyContainer button{
+  background-color: white; 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(99, 44, 85);
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+ .keyContainer button:nth-child(1) {
+  grid-column: 1 / 4; }
+
+.keyContainer button:nth-child(17) {
+  grid-column: 3 / 5; 
+}
