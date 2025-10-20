@@ -9,7 +9,7 @@ gap: 10px;
 }
 
 .keyContainer button{
-  background-color: white; 
+  background-color: rgb(0, 0, 0); 
   border-radius: 10px;
   display: flex;
   justify-content: center;
