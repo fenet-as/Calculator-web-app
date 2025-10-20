@@ -1,16 +1,56 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Calculator App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A lightweight React calculator built with Vite. This project demonstrates a simple component-based calculator that performs basic arithmetic operations.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+* Node.js version 16 or higher
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation & Development
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Project Structure
+
+* **index.html** — Entry point for Vite
+* **package.json** — Project scripts and dependencies
+* **src/main.jsx** — React application entry
+* **src/App.jsx** — Main application shell
+
+### Components
+
+* **Container** — Calculator logic and state management
+* **Screen** — Displays input and results
+* **Keycontainer** — Calculator buttons/keypad
+
+## Implementation Details
+
+* The main calculator logic is implemented in `src/components/Container.jsx`.
+* The `inputValue` state controls the display on the Screen component and is updated via the `changeValue` callback.
+* Styling is organized in `src/components/*.css`.
+
+## Contributing
+
+Contributions are welcome! For small fixes or improvements:
+
+* Fork the repository
+* Create a feature branch
+* Submit a pull request
+
+## License
+
+Unlicensed — for learning and experimentation.
+
